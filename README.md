@@ -15,6 +15,7 @@ The library is designed to be straightforward to use, however there many feature
    - [Strings](https://milesbarr.github.io/cross-platform-c/strings)
    - [Characters](https://milesbarr.github.io/cross-platform-c/characters)
    - [Processes](https://milesbarr.github.io/cross-platform-c/processes)
+   - [Debugging](https://milesbarr.github.io/cross-platform-c/debugging)
 - Memory
    - [Memory](https://milesbarr.github.io/cross-platform-c/memory)
    - [Heap Allocation](https://milesbarr.github.io/cross-platform-c/heap-allocation)
