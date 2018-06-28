@@ -33,13 +33,13 @@ int *val = cpc_array_get(&array, index, sizeof(int), CPC_ALIGN_OF(int));
 Clear an array.
 
 ```c
-cpc_array_clear(&array, sizeof(int), CPC_ALIGN_OF(int));
+cpc_array_clear(&array);
 ```
 
 Destroy an array.
 
 ```c
-cpc_array_destroy(&array, sizeof(int), CPC_ALIGN_OF(int));
+cpc_array_destroy(&array);
 ```
 
 ## Examples
