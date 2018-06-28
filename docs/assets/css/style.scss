@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+  text-align: center;
+}
+
+header h1:before {
+  width: 132px;
+  height: 96px;
+  background: url("https://github.com/milesbarr/cross-platform-c/raw/master/assets/logo.png");
+  background-size: 132px 96px;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
