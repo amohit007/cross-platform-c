@@ -125,7 +125,7 @@ void cpc_mem_fill(void *dst, size_t size, size_t alignment, char val) {
 		#elif defined(CPC_MEM_SSE128)
 			_mm_store_si128(dst, _mm_set_epi32(a, a, a, a));
 		#else
-			*(long long)dst = 0;
+			*(long long *)dst = 0;
 		#endif
 
 		dst = (void *)((char *)dst + CPC_MEM_OPTIMAL_ALIGNMENT);
@@ -165,7 +165,7 @@ void cpc_mem_zero(void *dst, size_t size, size_t alignment) {
 		#elif defined(CPC_MEM_SSE128)
 			_mm_store_si128(dst, _mm_setzero_si128());
 		#else
-			*(long long)dst = 0;
+			*(long long *)dst = 0;
 		#endif
 
 		dst = (void *)((char *)dst + CPC_MEM_OPTIMAL_ALIGNMENT);

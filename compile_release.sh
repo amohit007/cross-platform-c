@@ -1,4 +1,4 @@
 #!/bin/bash
 
 clear
-gcc src/*.c -Wall -lpthread -I include -Ofast -D NDEBUG
+gcc src/*.c -I include -Wall -lpthread -Ofast -D NDEBUG

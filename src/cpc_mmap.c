@@ -31,7 +31,8 @@
 
 		unsigned long long file_size = cpc_file_size(&mmap->file);
 		if (size > file_size - offset) {
-			size = file_size - offset;
+			CPC_ASSERT(file_size - offset <= SIZE_MAX);
+			size = (size_t)(file_size - offset);
 
 			if (CPC_UNLIKELY(size == 0)) {
 				BOOL result = CloseHandle(mmap->file_mapping);

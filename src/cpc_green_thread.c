@@ -61,7 +61,7 @@
 		}
 	}
 
-	CPC_NO_RETURN static CPC_THREAD_DEF_START_ROUTINE(cpc_worker, arg) {
+	static CPC_THREAD_DEF_START_ROUTINE(cpc_worker, arg) {
 		CPC_UNUSED_VAR(arg);
 
 		while (true) {

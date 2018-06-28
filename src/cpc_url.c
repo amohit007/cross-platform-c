@@ -14,7 +14,7 @@
 		return result == S_OK;
 	}
 
-	CPC_CHECK_RETURN bool cpc_url_decode(const char *encoded_url, char *url, size_t url_size) {
+	CPC_CHECK_RETURN bool cpc_url_decode(const char *restrict encoded_url, char *restrict url, size_t url_size) {
 		CPC_ASSERT(encoded_url != NULL);
 		CPC_ASSERT(url != NULL);
 		CPC_ASSERT(!(url <= encoded_url && encoded_url < url + url_size));

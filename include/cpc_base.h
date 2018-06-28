@@ -87,7 +87,7 @@
 	#define CPC_ALIGN_OF(type) (__alignof__(type))
 #elif defined(CPC_COMPILER_MSVC)
 	#ifdef CPC_DEBUG
-		#define CPC_ALWAYS_INLINE __forceinline inline
+		#define CPC_ALWAYS_INLINE __forceinline
 	#else
 		#define CPC_ALWAYS_INLINE inline
 	#endif
