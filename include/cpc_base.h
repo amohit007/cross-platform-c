@@ -37,7 +37,7 @@
 	#define CPC_COMPILER_CLANG
 #elif defined(__ICC) || defined(__INTEL_COMPILER)
 	#define CPC_COMPILER_INTEL
-#elif defined(__GNUC__) || defined(__GNUG__)
+#elif defined(__GNUC__)
 	#define CPC_COMPILER_GCC
 #elif defined(__HP_cc) || defined(__HP_aCC)
 	#define CPC_COMPILER_HP
