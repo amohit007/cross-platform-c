@@ -1,4 +1,4 @@
-Cross-Platform C aims to provide a better standard library for C. The library includes a growing number of features, common among other languages, which do not exist in the C standard library. When inlined, many of the functions compile down to OS API calls, and therefore do not add any additional runtime overhead to a project.
+Cross-Platform C includes a growing number of features, common among other languages, which do not exist in the C standard library. When inlined, many of the functions compile down to OS API calls, and therefore do not add any additional runtime overhead to a project.
 
 The library is still in development. If anything does not work, is confusing, or can be simplified, do not hesitate to submit an [issue](https://github.com/milesbarr/cross-platform-c/issues) or a [pull request](https://github.com/milesbarr/cross-platform-c/pulls).
 
